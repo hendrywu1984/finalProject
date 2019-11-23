@@ -74,10 +74,10 @@ function hitungBBI(umur, pria, tinggi){
 function hasil (bbi){
     var msg = ''
     if (bbi <= 18.5) msg = 'Kurus atau Kurang Berat Badan';
-    else if (bbi < 24.9) msg = 'Normal';
-    else if (bbi < 29.9) msg = 'Berat Badan Berlebih atau Gemuk';
-    else if (bbi < 34.9) msg = 'Obesitas Kelas 1';
-    else if (bbi < 39.9) msg = 'Obesitas Kelas 2';
+    else if (bbi <= 24.9) msg = 'Normal';
+    else if (bbi <= 29.9) msg = 'Berat Badan Berlebih atau Gemuk';
+    else if (bbi <= 34.9) msg = 'Obesitas Kelas 1';
+    else if (bbi <= 39.9) msg = 'Obesitas Kelas 2';
     else msg = 'Obesitas Kelas 3';
 
     return msg
